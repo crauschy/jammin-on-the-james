@@ -7,6 +7,21 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'Manifest';
+  src: url('/fonts/Manifest.ttf');
+}
+
+@font-face {
+  font-family: 'Coradium';
+  src: url('/fonts/Coradium.ttf');
+}
+
+@font-face {
+  font-family: 'Bremen Bd BT';
+  src: url('/fonts/Bremen_Bd_BT.ttf');
+}
+
 body {
   background: #fff;
   color: #666666;
@@ -29,8 +44,12 @@ p {
   margin: 0 0 30px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+h1 {
+  font-family: "Manifest", "Raleway", sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "Coradium", "Raleway", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -86,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center fixed;
+  background: url(../img/dancerhero.jpg) top left fixed;
   background-size: cover;
 }
 
@@ -99,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.1);
   display: table-cell;
   margin: 0;
   padding: 0;
