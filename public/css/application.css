@@ -3,7 +3,7 @@
   Theme URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-template/
   Author: BootstrapMade
   Author URL: https://bootstrapmade.com
-*/
+  */
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -105,16 +105,21 @@ h2, h3, h4, h5, h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/dancerhero.jpg) top left fixed;
+  background: url(../img/dancehero.jpg) top center fixed;
   background-size: cover;
 }
 
 #hero .hero-logo {
-  margin: 20px;
+  /*border: 2px solid green;*/
+  padding-left: 5%;
+  margin-right: 37%;
+  /*  margin: 20px;*/
 }
 
 #hero .hero-logo img {
+  /*border: 2px solid blue;*/
   max-width: 100%;
+
 }
 
 #hero .hero-container {
@@ -134,16 +139,41 @@ h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+#hero .hero-info  {
+  /*border: 2px solid red;*/
+  padding-left: 5%;
+  margin-top: 2%;
+  margin-right: 37%;
+}
+
+
 @media (max-width: 768px) {
-  #hero h1 {
+/*  #hero h1 {
     font-size: 28px;
     line-height: 36px;
+  }*/
+  #hero {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/dancehero.jpg) top left fixed;
+    background-size: cover;
+  }
+  #hero .hero-logo {
+/*    border: 2px solid pink;*/
+    width: 100%;
+    padding: 5%;
+  }
+  #hero .hero-info {
+    width: 100%;
+    padding: 5%;
   }
 }
 
 #hero h2 {
-  color: #999;
-  margin-bottom: 50px;
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 2%;
 }
 
 @media (max-width: 768px) {
@@ -175,8 +205,8 @@ h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #990000;
+  border: 2px solid #990000;
   color: #fff;
 }
 
@@ -192,8 +222,8 @@ h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-services:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #990000;
+  border: 2px solid #990000;
 }
 
 /*--------------------------------------------------------------
