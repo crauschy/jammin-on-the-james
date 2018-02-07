@@ -26,15 +26,16 @@ body {
   background: #fff;
   color: #666666;
   font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
 
 a {
-  color: #03C4EB;
+  color: #cc0000;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: #03c5ec;
+  color: #990000;
   outline: none;
   text-decoration: none;
 }
@@ -94,7 +95,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #03C4EB;
+  background: #990000;
   color: #fff;
 }
 
@@ -231,8 +232,8 @@ h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   background: #111;
-  padding: 20px 0;
-  height: 90px;
+  padding: 14px 0;
+  height: 78px;
 }
 
 #header #logo {
@@ -353,14 +354,14 @@ h2, h3, h4, h5, h6 {
   text-decoration: none;
   display: inline-block;
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 15px;
   outline: none;
 }
 
 .nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
-  color: #03C4EB;
+  color: #cc0000;
 }
 
 .nav-menu ul {
@@ -468,11 +469,11 @@ h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #03C4EB;
+  color: #990000;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #03C4EB;
+  color: #990000;
 }
 
 #mobile-body-overly {
@@ -520,7 +521,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-title-divider {
   width: 50px;
   height: 3px;
-  background: #03C4EB;
+  background: #990000;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -568,11 +569,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .service-icon {
   float: left;
-  background: #03C4EB;
+  background: #990000;
   padding: 16px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #03C4EB;
+  border: 1px solid #990000;
 }
 
 #services .service-icon i {
@@ -585,7 +586,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .service-item:hover .service-icon i {
-  color: #03C4EB;
+  color: #990000;
 }
 
 #services .service-title {
@@ -643,8 +644,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #subscribe .subscribe-btn:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #990000;
+  border: 2px solid #990000;
 }
 
 /* Portfolio Section
@@ -738,7 +739,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #testimonials .profile h4 {
   font-weight: 700;
-  color: #03C4EB;
+  color: #990000;
   margin-bottom: 5px;
 }
 
@@ -813,7 +814,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .social a:hover {
-  color: #03C4EB;
+  color: #990000;
 }
 
 #team .member .social i {
@@ -834,7 +835,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
   font-size: 32px;
-  color: #03C4EB;
+  color: #990000;
   float: left;
 }
 
@@ -844,8 +845,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #03C4EB;
-  border: 1px solid #03C4EB;
+  color: #990000;
+  border: 1px solid #990000;
   display: none;
   text-align: center;
   padding: 15px;
@@ -881,7 +882,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #03C4EB;
+  background: #990000;
   border: 0;
   padding: 10px 24px;
   color: #fff;
