@@ -530,7 +530,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #details {
   background: #fff;
-  padding: 50px 0 20px 0;
+  padding: 50px 0 50px 0;
 }
 
 #details .about-container {
@@ -633,7 +633,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Music Section
 --------------------------------*/
 #music {
- background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8)), url("../img/disco-ball.jpg") fixed center center;
+ background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("../img/disco-ball.jpg") fixed center center;
  background-size: cover;
  padding: 50px 0;
 }
@@ -773,6 +773,123 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: translate3d(0, 0, 0);
 }
 
+/* Competition Section
+--------------------------------*/
+/*#comp {
+ background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../img/jick-jall-1.jpg") fixed top center;
+ background-size: cover;
+ padding: 50px 0;
+}
+
+#comp .comp-item {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 260px;
+  width: 100%;
+  display: table;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#comp .comp-headliner {
+  height: 600px;
+}
+
+#comp .comp-item .details {
+  height: 260px;
+  background: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  opacity: 0;
+  transition: 0.3s;
+  text-align: center;
+}
+
+#comp .comp-item .details h4 {
+  font-size: 22px;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  -webkit-transform: translate3d(0, -15px, 0);
+  transform: translate3d(0, -15px, 0);
+  font-weight: 700;
+  color: #000000;
+}
+
+#comp .comp-item .details span {
+  display: block;
+  color: #333333;
+  font-size: 14px;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  -webkit-transform: translate3d(0, 15px, 0);
+  transform: translate3d(0, 15px, 0);
+}
+
+#comp .comp-item:hover .details {
+  opacity: 0.7;
+}
+
+#comp .comp-item:hover .details h4 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+#comp .comp-item:hover .details span {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}*/
+#comp {
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5)), url("../img/jick-jall-1.jpg") fixed top center;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+
+#comp .comp-item {
+  margin-bottom: 20px;
+}
+
+#comp .comp-icon {
+  float: left;
+  background: #990000;
+  padding: 16px;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #990000;
+}
+
+#comp .comp-icon i {
+  color: #fff;
+  font-size: 24px;
+}
+
+#comp .comp-item:hover .comp-icon {
+  background: #fff;
+}
+
+#comp .comp-item:hover .comp-icon i {
+  color: #990000;
+}
+
+#comp .comp-title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#comp .comp-title a {
+  color: #111;
+}
+
+#comp .comp-description {
+  margin-left: 80px;
+  line-height: 24px;
+}
+
 /* Travel Section
 --------------------------------*/
 #travel {
@@ -823,12 +940,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
 }
 
+
 /* Subscribe Section
 --------------------------------*/
-/*#subscribe {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/subscribe-bg.jpg) fixed center center;
+#subscribe {
+  background: linear-gradient(rgba(1, 1, 1, 0.3), rgba(1, 1, 1, 0.3)), url(../img/register-bg.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
+  text-align: center;
 }
 
 #subscribe .subscribe-title {
@@ -864,7 +983,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #subscribe .subscribe-btn:hover {
   background: #990000;
   border: 2px solid #990000;
-}*/
+}
 
 
 
