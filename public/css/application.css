@@ -846,10 +846,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5)), url("../img/jick-jall-1.jpg") fixed top center;
   background-size: cover;
   padding: 80px 0 60px 0;
+  min-height: 100vh;
 }
 
 #comp .comp-item {
   margin-bottom: 20px;
+}
+
+#comp .comp-center {
+  width: 70%;
+  margin: 0 auto;
 }
 
 #comp .comp-icon {
@@ -889,6 +895,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 80px;
   line-height: 24px;
 }
+
+#comp .centered {
+  margin-left: auto;
+  text-align: center;
+}
+
 
 /* Travel Section
 --------------------------------*/
