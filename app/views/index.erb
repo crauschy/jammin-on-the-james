@@ -28,35 +28,42 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a>
+        <a href="#hero"><img src="img/logo.png" alt="jammin logo" title="Jammin on the James" /></img></a>
         <!-- Uncomment below if you prefer to use a text image -->
         <!--<h1><a href="#hero">Header 1</a></h1>-->
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#hero">Home</a></li>
+          <!-- <li class="menu-active"><a href="#hero">Home</a></li> -->
           <li class="menu-has-children"><a href="#details">Details</a>
             <ul>
-              <li><a href="#">Schedule</a></li>
-              <li><a href="#">Venues</a></li>
+              <li><a href="/schedule">Schedule</a></li>
+              <li><a href="/venues">Venues</a></li>
+              <li><a href="#">Competitions</a></li>
             </ul>
           </li>
-          <li class="menu-has-children"><a href="#services">Music</a>
+          <li class="menu-has-children"><a href="#music">Music</a>
             <ul>
-              <li><a href="#">Bands</a></li>
-              <li><a href="#">DJs</a></li>
+              <li><a href="/music">Bands</a></li>
+              <li><a href="/music#djs">DJs</a></li>
             </ul>
           </li>
-          <li class="menu-has-children"><a href="#portfolio">Workshops</a>
+          <li class="menu-has-children"><a href="#workshop">Workshops</a>
             <ul>
-              <li><a href="#">Instructors</a></li>
-              <li><a href="#">Levels</a></li>
+              <li><a href="/instructors">Instructors</a></li>
+              <li><a href="/workshops">Levels</a></li>
             </ul>
           </li>
-          <li><a href="#testimonials">Travel</a></li>
+          <li class="menu-has-children"><a href="#travel">Richmond</a>
+            <ul>
+              <li><a href="/travel">Travel</a></li>
+              <li><a href="/travel#housing">Housing</a></li>
+              <li><a href="/richmondfun">Things To Do</a></li>
+            </ul>
+          </li>
           <li><a href="#team">Our Team</a></li>
-          <li><a href="#contact">Register!</a></li>
+          <li><a href="/registration">Register!</a></li>
           <!-- <li class="menu-has-children"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -83,14 +90,14 @@
   <!-- #header -->
 
   <!--==========================
-  About Section
+  Details Section
   ============================-->
   <section id="details">
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
-         <!--  <h3 class="section-title">About the Event</h3> -->
-          <div class="section-title-divider"></div>
+          <h3 class="section-title">Jammin' on the James, 2018!</h3>
+          <!-- <div class="section-title-divider"></div> -->
           <p class="section-description"><strong>Jammin' on the James</strong> is a workshop weekend in <strong>Richmond, VA</strong>, known for big ideas and a small, intimate vibe. <br> This October we're back for our <strong>16th year</strong> with <strong>new surprises</strong> and the <strong>high quality instruction, music, and dancing</strong> you've come to expect.</p>
         </div>
       </div>
@@ -98,7 +105,7 @@
     <div class="container about-container wow fadeInUp">
       <div class="row">
         <div class="col-md-6 col-md-push-6 about-content">
-          <h2 class="about-title">Jammin' on the James, 2018!</h2>
+          <h2 class="about-title">Details</h2>
           <p class="about-text">
             This paragraph will be about <a href="#">dates</a> and <a href="#">location</a>. There should also be a link to the <a href="#">full schedule</a>, maybe the <a href ="#">venues page</a> as well.
           </p>
@@ -111,80 +118,414 @@
           <p class="about-text">
             Last section will mention all the other highlights like the <a href="#">competitions</a>, the <a href="#">food fun</a>, the <a href="#">special discounts</a>, and general <a href="#">awesomeness</a> that Richmond has to offer.
           </p>
+          <h2 class="about-title about-text">Follow Us For Updates:</h2>
+          <div class="col-md-1"></div>
+          <div class="col-md-5 social-btn-container">
+            <a class="social-btn" href="#">Facebook Event</a>
+          </div>
+          <div class="col-md-5 social-btn-container">
+            <a class="social-btn" href="#">Facebook Group</a>
+          </div>
         </div>
       </div>
     </div>
+
   </section>
 
+
   <!--==========================
-  Services Section
+  Music Section
   ============================-->
-  <section id="services">
+
+  <section id="music">
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
           <h3 class="section-title">Music</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+          <!-- <p class="section-description">Jammin has always brought excellent live music to keep you dancing all night long. We are VERY excited about this year's offering. Stay tuned to find out who's coming to town!</p> -->
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-desktop"></i></div>
-          <h4 class="service-title"><a href="">Lorem Ipsum</a></h4>
-          <p class="service-description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+        <div class="col-md-12">
+          <a class="music-item music-headliner" style="background-image: url(img/dancehero.jpg);" href="">
+            <div class="details">
+              <h4>Coming Soon!</h4>
+              <span>(headliner)</span>
+            </div>
+          </a>
         </div>
-        <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-bar-chart"></i></div>
-          <h4 class="service-title"><a href="">Dolor Sitema</a></h4>
-          <p class="service-description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+
+        <div class="col-md-10 col-md-push-1">
+          <p class="section-description">Jammin has always brought excellent live music to keep you dancing all night long. We are VERY excited about this year's offering. Stay tuned to find out who's coming to town!</p>
         </div>
-        <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-paper-plane"></i></div>
-          <h4 class="service-title"><a href="">Sed ut perspiciatis</a></h4>
-          <p class="service-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-4">
+          <a class="music-item music-dj" style="background-image: url(img/squaretext.jpg);" href="">
+            <div class="details">
+              <h4>Name of DJ 1</h4>
+              <span>City Name, STATE</span>
+            </div>
+          </a>
         </div>
-        <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-photo"></i></div>
-          <h4 class="service-title"><a href="">Magni Dolores</a></h4>
-          <p class="service-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+        <div class="col-md-4">
+          <a class="music-item music-dj" style="background-image: url(img/squaretext.jpg);" href="">
+            <div class="details">
+              <h4>Name of DJ 2</h4>
+              <span>City Name, STATE</span>
+            </div>
+          </a>
         </div>
-        <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-road"></i></div>
-          <h4 class="service-title"><a href="">Nemo Enim</a></h4>
-          <p class="service-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+
+        <div class="col-md-4">
+          <a class="music-item music-dj" style="background-image: url(img/squaretext.jpg);" href="">
+            <div class="details">
+              <h4>Name of DJ 3</h4>
+              <span>City Name, STATE</span>
+            </div>
+          </a>
         </div>
-        <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-shopping-bag"></i></div>
-          <h4 class="service-title"><a href="">Eiusmod Tempor</a></h4>
-          <p class="service-description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-        </div>
+
       </div>
     </div>
   </section>
 
+
   <!--==========================
-  Subscrbe Section
+  Workshop Section
   ============================-->
-  <section id="subscribe">
+
+  <section id="workshop">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">Workshops</h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description">Jammin' always provides the opportunity to learn and improve your dancing in workshops with fantastic instructors. Stay tuned as we reveal who we have in store!</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <a class="workshop-item workshop-main" style="background-image: url(img/dancehero.jpg);" href="">
+            <div class="details">
+              <h4>Coming Soon!</h4>
+              <span>(first couple)</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-6">
+          <a class="workshop-item workshop-main" style="background-image: url(img/dancehero.jpg);" href="">
+            <div class="details">
+              <h4>Coming Soon!</h4>
+              <span>(second couple)</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="workshop-item" style="background-image: url(img/team-1.jpg);" href="">
+            <div class="details">
+              <h4>Name of DJ 1</h4>
+              <span>City Name, STATE</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="workshop-item" style="background-image: url(img/team-2.jpg);" href="">
+            <div class="details">
+              <h4>Name of DJ 2</h4>
+              <span>City Name, STATE</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="workshop-item" style="background-image: url(img/team-3.jpg);" href="">
+            <div class="details">
+              <h4>Name of DJ 3</h4>
+              <span>City Name, STATE</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="workshop-item" style="background-image: url(img/team-4.jpg);" href="">
+            <div class="details">
+              <h4>Name of DJ 4</h4>
+              <span>City Name, STATE</span>
+            </div>
+          </a>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+<!--==========================
+  Competition Section
+  ============================-->
+<!--
+  <section id="comp">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">Competitions</h3>
+          <div class="section-title-divider"></div> -->
+          <!-- <p class="section-description">Jammin has always brought excellent live music to keep you dancing all night long. We are VERY excited about this year's offering. Stay tuned to find out who's coming to town!</p> -->
+ <!--        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-7">
+          <a class="comp-item comp-headliner" style="background-image: url(img/jick-jall-1.jpg);" href="">
+            <div class="details">
+              <h4>Coming Soon!</h4>
+              <span>(headliner)</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-2 col-md-push-1">
+          <p class="section-description">Jammin has always brought excellent live comp to keep you dancing all night long. We are VERY excited about this year's offering. Stay tuned to find out who's coming to town!</p>
+        </div>
+      </div>
+    -->
+      <!-- <div class="row">
+
+        <div class="col-md-4">
+          <a class="comp-item comp-dj" style="background-image: url(img/squaretext.jpg);" href="">
+            <div class="details">
+              <h4>Name of DJ 1</h4>
+              <span>City Name, STATE</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a class="comp-item comp-dj" style="background-image: url(img/squaretext.jpg);" href="">
+            <div class="details">
+              <h4>Name of DJ 2</h4>
+              <span>City Name, STATE</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a class="comp-item comp-dj" style="background-image: url(img/squaretext.jpg);" href="">
+            <div class="details">
+              <h4>Name of DJ 3</h4>
+              <span>City Name, STATE</span>
+            </div>
+          </a>
+        </div>
+
+      </div> -->
+<!--     </div>
+</section> -->
+
+<section id="comp">
+  <div class="container wow fadeInUp">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="section-title">Competitions</h3>
+        <div class="section-title-divider"></div>
+        <p class="section-description">Jammin' on the James likes to keep the comps fun, free, and fabulous! Sponsors this year include.... this event, that event, and that other event.</p>
+      </div>
+    </div>
+
+    <div class="row comp-center">
+    <div class="col-md-12  comp-item">
+        <div class="comp-icon"><i class="fa fa-trophy"></i></div>
+        <h4 class="comp-title"><a href="">The Jick and Jall</a></h4>
+        <p class="comp-description">This one is a Jammin' on the James classic, where participants dance both the lead and follow parts! It's free to enter and always a ton of fun!</p>
+        <p class="comp-description centered">Find out more about <a href="">The Jick and Jall Competition</a></p>
+      </div>
+    </div>
+    <div class="row comp-center">
+      <div class="col-md-12 comp-item">
+        <div class="comp-icon"><i class="fa fa-trophy"></i></div>
+        <h4 class="comp-title"><a href="">The Short Showcase</a></h4>
+        <p class="comp-description">New to Jammin' for 2018, the short showcase is also free to enter and open to the first 8 contestants.</p>
+        <p class="comp-description centered">Find out more about <a href="">The Short Showcase Competition</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+  <!--==========================
+  Registration Section
+  ============================-->
+  <section id="register">
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-8">
-          <h3 class="subscribe-title">Subscribe For Updates</h3>
-          <p class="subscribe-text">Join our 1000+ subscribers and get access to the latest tools, freebies, product announcements and much more!</p>
+          <h3 class="register-title">Register for Jammin' on the James!</h3>
+          <p class="register-text">You know you don't want to miss all the fun this October! <br>Save the dates and stay tuned. Registration opens soon!</p>
         </div>
-        <div class="col-md-4 subscribe-btn-container">
-          <a class="subscribe-btn" href="#">Subscribe Now</a>
+        <div class="col-md-4 register-btn-container">
+          <a class="register-btn" href="#">Register!</a>
         </div>
       </div>
     </div>
   </section>
+
+
+  <!--==========================
+  Travel Section
+  ============================-->
+  <section id="travel">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">Visiting Richmond</h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description">We love our River City and we think you will too. Follow the links below to find out more about getting to and staying in Richmond as well as cool things to do when you're not dancing!</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 travel-item">
+          <div class="travel-icon"><i class="fa fa-desktop"></i></div>
+          <h4 class="travel-title"><a href="">Travel</a></h4>
+          <p class="travel-description">This section will highlight that there's an International airport, hotels, etc. etc. and a <a href="#">link</a> to more.</p>
+        </div>
+        <div class="col-md-4 travel-item">
+          <div class="travel-icon"><i class="fa fa-bar-chart"></i></div>
+          <h4 class="travel-title"><a href="">Things To Do</a></h4>
+          <p class="travel-description">There's so much to do in Richmond. This map will help you figure out where to eat, shop, and play!</p>
+        </div>
+        <div class="col-md-4 travel-item">
+          <div class="travel-icon"><i class="fa fa-paper-plane"></i></div>
+          <h4 class="travel-title"><a href="">Special Discounts!</a></h4>
+          <p class="travel-description">These stores are offering a special discount to Jammin' participants! Simply show them your wristband and enjoy all that vintage goodness.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--==========================
+  Team Section
+  ============================-->
+  <section id="team">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">Our Team</h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description">These are just some of the many people that are working hard to make Jammin' the successful event that it is. They are also the people to ask any questions you may have about the event!</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="member">
+            <div class="pic"><img src="img/team-1.jpg" alt=""></div>
+            <h4>Kyle Kelley</h4>
+            <span>Organizer</span>
+            <div class="social">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-google-plus"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="member">
+            <div class="pic"><img src="img/team-2.jpg" alt=""></div>
+            <h4>Dave Barry</h4>
+            <span>Organizer</span>
+            <div class="social">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-google-plus"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="member">
+            <div class="pic"><img src="img/team-3.jpg" alt=""></div>
+            <h4>William Anderson</h4>
+            <span>CTO</span>
+            <div class="social">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-google-plus"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="member">
+            <div class="pic"><img src="img/team-4.jpg" alt=""></div>
+            <h4>Amanda Jepson</h4>
+            <span>Accountant</span>
+            <div class="social">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-google-plus"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+    <!--==========================
+  Footer
+  ============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="copyright">
+            &copy; Copyright <strong>Imperial Theme</strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Imperial
+            -->
+            Bootstrap Templates by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+
+
 
   <!--==========================
   Porfolio Section
   ============================-->
-  <section id="portfolio">
+<!--   <section id="portfolio">
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
@@ -274,7 +615,7 @@
   <!--==========================
   Testimonials Section
   ============================-->
-  <section id="testimonials">
+  <!-- <section id="testimonials">
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
@@ -315,169 +656,4 @@
       </div>
 
     </div>
-  </section>
-
-  <!--==========================
-  Team Section
-  ============================-->
-  <section id="team">
-    <div class="container wow fadeInUp">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="section-title">Our Team</h3>
-          <div class="section-title-divider"></div>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-3">
-          <div class="member">
-            <div class="pic"><img src="img/team-1.jpg" alt=""></div>
-            <h4>Walter White</h4>
-            <span>Chief Executive Officer</span>
-            <div class="social">
-              <a href=""><i class="fa fa-twitter"></i></a>
-              <a href=""><i class="fa fa-facebook"></i></a>
-              <a href=""><i class="fa fa-google-plus"></i></a>
-              <a href=""><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="member">
-            <div class="pic"><img src="img/team-2.jpg" alt=""></div>
-            <h4>Sarah Jhinson</h4>
-            <span>Product Manager</span>
-            <div class="social">
-              <a href=""><i class="fa fa-twitter"></i></a>
-              <a href=""><i class="fa fa-facebook"></i></a>
-              <a href=""><i class="fa fa-google-plus"></i></a>
-              <a href=""><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="member">
-            <div class="pic"><img src="img/team-3.jpg" alt=""></div>
-            <h4>William Anderson</h4>
-            <span>CTO</span>
-            <div class="social">
-              <a href=""><i class="fa fa-twitter"></i></a>
-              <a href=""><i class="fa fa-facebook"></i></a>
-              <a href=""><i class="fa fa-google-plus"></i></a>
-              <a href=""><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="member">
-            <div class="pic"><img src="img/team-4.jpg" alt=""></div>
-            <h4>Amanda Jepson</h4>
-            <span>Accountant</span>
-            <div class="social">
-              <a href=""><i class="fa fa-twitter"></i></a>
-              <a href=""><i class="fa fa-facebook"></i></a>
-              <a href=""><i class="fa fa-google-plus"></i></a>
-              <a href=""><i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!--==========================
-  Contact Section
-  ============================-->
- <!--  <section id="contact">
-    <div class="container wow fadeInUp">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="section-title">Contact Us</h3>
-          <div class="section-title-divider"></div>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-3 col-md-push-2">
-          <div class="info">
-            <div>
-              <i class="fa fa-map-marker"></i>
-              <p>A108 Adam Street<br>New York, NY 535022</p>
-            </div>
-
-            <div>
-              <i class="fa fa-envelope"></i>
-              <p>info@example.com</p>
-            </div>
-
-            <div>
-              <i class="fa fa-phone"></i>
-              <p>+1 5589 55488 55s</p>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-md-5 col-md-push-2">
-          <div class="form">
-            <div id="sendmessage">Your message has been sent. Thank you!</div>
-            <div id="errormessage"></div>
-            <form action="" method="post" role="form" class="contactForm">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validation"></div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-        </div>
-
-      </div>
-    </div>
   </section> -->
-
-    <!--==========================
-  Footer
-  ============================-->
-  <footer id="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="copyright">
-            &copy; Copyright <strong>Imperial Theme</strong>. All Rights Reserved
-          </div>
-          <div class="credits">
-            <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Imperial
-            -->
-            Bootstrap Templates by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- #footer -->
-
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
