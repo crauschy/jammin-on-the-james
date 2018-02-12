@@ -3,34 +3,38 @@ get '/' do
 end
 
 get '/schedule' do
-  erb :index
+  erb :schedule
 end
 
 get '/venues' do
-  erb :index
+  erb :venues
 end
 
 get '/music' do
-  erb :index
+  erb :music
 end
 
 get '/instructors' do
-  erb :index
+  erb :instructors
 end
 
 get '/workshops' do
-  erb :index
+  erb :workshops
 end
 
-get '/register' do
-  erb :index
+get '/registration' do
+  erb :registration
 end
 
 get '/travel' do
-  erb :index
+  erb :travel
 end
 
 get '/richmondfun' do
-  erb :index
+  erb :richmondfun
+end
+
+get '/thanks' do
+  erb :thanks
 end
 

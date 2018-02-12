@@ -100,7 +100,7 @@ h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Welcome
+# Hero Banner
 --------------------------------------------------------------*/
 #hero {
   display: table;
@@ -111,16 +111,12 @@ h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-logo {
-  /*border: 2px solid green;*/
   padding-left: 5%;
   margin-right: 37%;
-  /*  margin: 20px;*/
 }
 
 #hero .hero-logo img {
-  /*border: 2px solid blue;*/
   max-width: 100%;
-
 }
 
 #hero .hero-container {
@@ -141,7 +137,6 @@ h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-info  {
-  /*border: 2px solid red;*/
   padding-left: 5%;
   margin-top: 2%;
   margin-right: 37%;
@@ -149,83 +144,82 @@ h2, h3, h4, h5, h6 {
 
 
 @media (max-width: 768px) {
-/*  #hero h1 {
+  #hero h1 {
     font-size: 28px;
     line-height: 36px;
-    }*/
-    #hero {
-      display: table;
-      width: 100%;
-      height: 100vh;
-      background: url(../img/dancehero.jpg) top left fixed;
-      background-size: cover;
-    }
-    #hero .hero-logo {
-      /*    border: 2px solid pink;*/
-      width: 100%;
-      padding: 5%;
-    }
-    #hero .hero-info {
-      width: 100%;
-      padding: 5%;
-    }
   }
+  #hero {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/dancehero.jpg) top left fixed;
+    background-size: cover;
+  }
+  #hero .hero-logo {
+    width: 100%;
+    padding: 5%;
+  }
+  #hero .hero-info {
+    width: 100%;
+    padding: 5%;
+  }
+}
 
+#hero h2 {
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+
+@media (max-width: 768px) {
   #hero h2 {
-    color: #fff;
-    font-size: 3rem;
-    margin-bottom: 2%;
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 30px;
   }
+  #hero h2 .rotating {
+    display: block;
+  }
+}
 
-  @media (max-width: 768px) {
-    #hero h2 {
-      font-size: 24px;
-      line-height: 26px;
-      margin-bottom: 30px;
-    }
-    #hero h2 .rotating {
-      display: block;
-    }
-  }
+#hero .rotating > .animated {
+  display: inline-block;
+}
 
-  #hero .rotating > .animated {
-    display: inline-block;
-  }
+#hero .actions a {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+}
 
-  #hero .actions a {
-    font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 8px 20px;
-    border-radius: 2px;
-    transition: 0.5s;
-    margin: 10px;
-  }
+#hero .btn-get-started {
+  background: #990000;
+  border: 2px solid #990000;
+  color: #fff;
+}
 
-  #hero .btn-get-started {
-    background: #990000;
-    border: 2px solid #990000;
-    color: #fff;
-  }
+#hero .btn-get-started:hover {
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+}
 
-  #hero .btn-get-started:hover {
-    background: none;
-    border: 2px solid #fff;
-    color: #fff;
-  }
+#hero .btn-services {
+  border: 2px solid #fff;
+  color: #fff;
+}
 
-  #hero .btn-services {
-    border: 2px solid #fff;
-    color: #fff;
-  }
-
-  #hero .btn-services:hover {
-    background: #990000;
-    border: 2px solid #990000;
-  }
+#hero .btn-services:hover {
+  background: #990000;
+  border: 2px solid #990000;
+}
 
 /*--------------------------------------------------------------
 # Header
@@ -280,7 +274,7 @@ h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-/* Nav Menu Essentials */
+/* Nav Menu */
 .nav-menu, .nav-menu * {
   margin: 0;
   padding: 0;
@@ -336,7 +330,7 @@ h2, h3, h4, h5, h6 {
   content: "\f105";
 }
 
-/* Nav Meu Container */
+/* Nav Menu Container */
 #nav-menu-container {
   float: right;
   margin: 5px 0;
@@ -348,7 +342,7 @@ h2, h3, h4, h5, h6 {
   }
 }
 
-/* Nav Meu Styling */
+/* Nav Menu Styling */
 .nav-menu a {
   padding: 10px 15px;
   text-decoration: none;
@@ -390,7 +384,7 @@ h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-/* Mobile Nav Toggle */
+/* Mobile Nav Hamburger */
 #mobile-nav-toggle {
   position: fixed;
   right: 0;
@@ -503,6 +497,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
+
 /* Sections Common
 --------------------------------*/
 .section-title {
@@ -523,14 +518,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 3px;
   background: #990000;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
+
 
 /* Details Section
 --------------------------------*/
 #details {
   background: #fff;
-  padding: 50px 0 50px 0;
+  padding: 50px 0 60px 0;
 }
 
 #details .about-container {
@@ -585,57 +581,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-/* Social Media Section
---------------------------------*/
-/*#social {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../img/social-media-bg.jpg) fixed top center;
-  background-size: cover;
-  padding: 50px 0;
-}
-
-#social .social-title {
-  color: #333;
-  font-weight: 700;
-  font-size: 28px;
-}
-
-#social .social-text {
-  color: #000;
-}
-
-#social .social-btn-container {
-  text-align: center;
-  padding-top: 20px;
-}
-
-#social .social-btn {
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 20px;
-  border-radius: 2px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid #000;
-  color: #000;
-}
-
-#social .social-btn:hover {
-  background: #990000;
-  border: 2px solid #990000;
-}
-
-*/
-
 /* Music Section
 --------------------------------*/
 #music {
  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("../img/disco-ball.jpg") fixed center center;
  background-size: cover;
- padding: 50px 0;
+ padding: 60px 0 60px 0;
 }
 
 #music .music-item {
@@ -651,7 +602,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #music .music-headliner {
-  height: 600px;
+  height: 580px;
 }
 
 #music .music-item .details {
@@ -700,11 +651,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: translate3d(0, 0, 0);
 }
 
+
 /* Workshop Section
 --------------------------------*/
 #workshop {
   background: #fff;
-  padding: 50px 0;
+  padding: 60px 0 60px 0;
 }
 
 #workshop .workshop-item {
@@ -773,140 +725,126 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: translate3d(0, 0, 0);
 }
 
+
 /* Competition Section
 --------------------------------*/
-/*#comp {
- background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url("../img/jick-jall-1.jpg") fixed top center;
- background-size: cover;
- padding: 50px 0;
-}
+  #comp {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/jick-jall-1.jpg") fixed top center;
+    background-size: cover;
+    padding: 80px 0 60px 0;
+    min-height: 100vh;
+  }
 
-#comp .comp-item {
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  height: 260px;
-  width: 100%;
-  display: table;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
+  #comp .comp-item {
+    margin-bottom: 20px;
+  }
 
-#comp .comp-headliner {
-  height: 600px;
-}
+  #comp .comp-center {
+    width: 66%;
+    margin: 0 auto;
+  }
 
-#comp .comp-item .details {
-  height: 260px;
-  background: #fff;
-  display: table-cell;
-  vertical-align: middle;
-  opacity: 0;
-  transition: 0.3s;
+  #comp .comp-icon {
+    float: left;
+    background: #990000;
+    padding: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #990000;
+  }
+
+  #comp .comp-icon i {
+    color: #fff;
+    font-size: 24px;
+  }
+
+  #comp .comp-item:hover .comp-icon {
+    background: #fff;
+  }
+
+  #comp .comp-item:hover .comp-icon i {
+    color: #990000;
+  }
+
+  #comp .comp-title {
+    margin-left: 80px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+
+  #comp .comp-title a {
+    color: #111;
+  }
+
+  #comp .comp-description {
+    margin-left: 80px;
+    line-height: 24px;
+  }
+
+  #comp .centered {
+    margin-left: auto;
+    text-align: center;
+  }
+
+
+/* Registration Section
+--------------------------------*/
+#register {
+  background: #000000;
+  min-height: 50vh;
+  padding: 80px 0;
   text-align: center;
 }
 
-#comp .comp-item .details h4 {
-  font-size: 22px;
-  transition: opacity 0.3s, -webkit-transform 0.3s;
-  transition: transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-  -webkit-transform: translate3d(0, -15px, 0);
-  transform: translate3d(0, -15px, 0);
-  font-weight: 700;
-  color: #000000;
+#register .container {
+  margin: 50px auto;
 }
 
-#comp .comp-item .details span {
-  display: block;
-  color: #333333;
-  font-size: 14px;
-  transition: opacity 0.3s, -webkit-transform 0.3s;
-  transition: transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-  -webkit-transform: translate3d(0, 15px, 0);
-  transform: translate3d(0, 15px, 0);
-}
-
-#comp .comp-item:hover .details {
-  opacity: 0.7;
-}
-
-#comp .comp-item:hover .details h4 {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-#comp .comp-item:hover .details span {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}*/
-#comp {
-  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5)), url("../img/jick-jall-1.jpg") fixed top center;
-  background-size: cover;
-  padding: 80px 0 60px 0;
-  min-height: 100vh;
-}
-
-#comp .comp-item {
-  margin-bottom: 20px;
-}
-
-#comp .comp-center {
-  width: 70%;
-  margin: 0 auto;
-}
-
-#comp .comp-icon {
-  float: left;
-  background: #990000;
-  padding: 16px;
-  border-radius: 50%;
-  transition: 0.5s;
-  border: 1px solid #990000;
-}
-
-#comp .comp-icon i {
+#register .register-title {
   color: #fff;
-  font-size: 24px;
-}
-
-#comp .comp-item:hover .comp-icon {
-  background: #fff;
-}
-
-#comp .comp-item:hover .comp-icon i {
-  color: #990000;
-}
-
-#comp .comp-title {
-  margin-left: 80px;
+  font-size: 28px;
   font-weight: 700;
-  margin-bottom: 15px;
-  text-transform: uppercase;
+  margin-top: 10px;
 }
 
-#comp .comp-title a {
-  color: #111;
+#register .register-text {
+  color: #fff;
 }
 
-#comp .comp-description {
-  margin-left: 80px;
-  line-height: 24px;
-}
-
-#comp .centered {
-  margin-left: auto;
+#register .register-btn-container {
   text-align: center;
+  padding-top: 20px;
 }
+
+#register .register-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#register .register-btn:hover {
+  background: #990000;
+  border: 2px solid #990000;
+}
+
 
 
 /* Travel Section
 --------------------------------*/
 #travel {
-  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5)), url("../img/rvamap.png") fixed center top;
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5)), url("../img/rvamap.png") fixed center center;
   background-size: cover;
+  min-height: 50vh;
   padding: 80px 0 60px 0;
 }
 
@@ -952,228 +890,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
 }
 
-
-/* Subscribe Section
---------------------------------*/
-#subscribe {
-  background: linear-gradient(rgba(1, 1, 1, 0.3), rgba(1, 1, 1, 0.3)), url(../img/register-bg.jpg) fixed center center;
-  background-size: cover;
-  padding: 80px 0;
-  text-align: center;
-}
-
-#subscribe .subscribe-title {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-#subscribe .subscribe-text {
-  color: #fff;
-}
-
-#subscribe .subscribe-btn-container {
-  text-align: center;
-  padding-top: 20px;
-}
-
-#subscribe .subscribe-btn {
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 20px;
-  border-radius: 2px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-#subscribe .subscribe-btn:hover {
-  background: #990000;
-  border: 2px solid #990000;
-}
-
-
-
-
-/* Services Section
---------------------------------*/
-#services {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
-  background-size: cover;
-  padding: 80px 0 60px 0;
-}
-
-#services .service-item {
-  margin-bottom: 20px;
-}
-
-#services .service-icon {
-  float: left;
-  background: #990000;
-  padding: 16px;
-  border-radius: 50%;
-  transition: 0.5s;
-  border: 1px solid #990000;
-}
-
-#services .service-icon i {
-  color: #fff;
-  font-size: 24px;
-}
-
-#services .service-item:hover .service-icon {
-  background: #fff;
-}
-
-#services .service-item:hover .service-icon i {
-  color: #990000;
-}
-
-#services .service-title {
-  margin-left: 80px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-}
-
-#services .service-title a {
-  color: #111;
-}
-
-#services .service-description {
-  margin-left: 80px;
-  line-height: 24px;
-}
-
-
-/* Portfolio Section
---------------------------------*/
-#portfolio {
-  background: #fff;
-  padding: 80px 0;
-}
-
-#portfolio .portfolio-item {
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  height: 260px;
-  width: 100%;
-  display: table;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-
-#portfolio .portfolio-item .details {
-  height: 260px;
-  background: #fff;
-  display: table-cell;
-  vertical-align: middle;
-  opacity: 0;
-  transition: 0.3s;
-  text-align: center;
-}
-
-#portfolio .portfolio-item .details h4 {
-  font-size: 16px;
-  transition: opacity 0.3s, -webkit-transform 0.3s;
-  transition: transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-  -webkit-transform: translate3d(0, -15px, 0);
-  transform: translate3d(0, -15px, 0);
-  font-weight: 700;
-  color: #333333;
-}
-
-#portfolio .portfolio-item .details span {
-  display: block;
-  color: #666666;
-  font-size: 13px;
-  transition: opacity 0.3s, -webkit-transform 0.3s;
-  transition: transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-  -webkit-transform: translate3d(0, 15px, 0);
-  transform: translate3d(0, 15px, 0);
-}
-
-#portfolio .portfolio-item:hover .details {
-  opacity: 0.8;
-}
-
-#portfolio .portfolio-item:hover .details h4 {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-#portfolio .portfolio-item:hover .details span {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-/* Testimonials Section
---------------------------------*/
-#testimonials {
-  background: #f6f6f6;
-  padding: 80px 0;
-}
-
-#testimonials .profile {
-  text-align: center;
-}
-
-#testimonials .profile .pic {
-  border-radius: 50%;
-  border: 6px solid #fff;
-  margin-bottom: 15px;
-  overflow: hidden;
-  height: 260px;
-  width: 260px;
-}
-
-#testimonials .profile .pic img {
-  max-width: 100%;
-}
-
-#testimonials .profile h4 {
-  font-weight: 700;
-  color: #990000;
-  margin-bottom: 5px;
-}
-
-#testimonials .profile span {
-  color: #333333;
-}
-
-#testimonials .quote {
-  position: relative;
-  background: #fff;
-  padding: 60px;
-  margin-top: 40px;
-  font-size: 16px;
-  font-style: italic;
-  border-radius: 5px;
-}
-
-#testimonials .quote b {
-  display: inline-block;
-  font-size: 22px;
-  left: -9px;
-  position: relative;
-  top: -8px;
-}
-
-#testimonials .quote small {
-  display: inline-block;
-  right: -9px;
-  position: relative;
-  top: 4px;
-}
 
 /* Team Section
 --------------------------------*/
@@ -1245,3 +961,188 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ccc;
 }
 
+
+
+
+
+
+
+
+
+
+
+/* Services Section
+--------------------------------*/
+/*#services {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+
+#services .service-item {
+  margin-bottom: 20px;
+}
+
+#services .service-icon {
+  float: left;
+  background: #990000;
+  padding: 16px;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #990000;
+}
+
+#services .service-icon i {
+  color: #fff;
+  font-size: 24px;
+}
+
+#services .service-item:hover .service-icon {
+  background: #fff;
+}
+
+#services .service-item:hover .service-icon i {
+  color: #990000;
+}
+
+#services .service-title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#services .service-title a {
+  color: #111;
+}
+
+#services .service-description {
+  margin-left: 80px;
+  line-height: 24px;
+  }*/
+
+
+/* Portfolio Section
+--------------------------------*/
+/*#portfolio {
+  background: #fff;
+  padding: 80px 0;
+}
+
+#portfolio .portfolio-item {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 260px;
+  width: 100%;
+  display: table;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#portfolio .portfolio-item .details {
+  height: 260px;
+  background: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  opacity: 0;
+  transition: 0.3s;
+  text-align: center;
+}
+
+#portfolio .portfolio-item .details h4 {
+  font-size: 16px;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  -webkit-transform: translate3d(0, -15px, 0);
+  transform: translate3d(0, -15px, 0);
+  font-weight: 700;
+  color: #333333;
+}
+
+#portfolio .portfolio-item .details span {
+  display: block;
+  color: #666666;
+  font-size: 13px;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  -webkit-transform: translate3d(0, 15px, 0);
+  transform: translate3d(0, 15px, 0);
+}
+
+#portfolio .portfolio-item:hover .details {
+  opacity: 0.8;
+}
+
+#portfolio .portfolio-item:hover .details h4 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+#portfolio .portfolio-item:hover .details span {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  }*/
+
+/* Testimonials Section
+--------------------------------*/
+/*#testimonials {
+  background: #f6f6f6;
+  padding: 80px 0;
+}
+
+#testimonials .profile {
+  text-align: center;
+}
+
+#testimonials .profile .pic {
+  border-radius: 50%;
+  border: 6px solid #fff;
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 260px;
+  width: 260px;
+}
+
+#testimonials .profile .pic img {
+  max-width: 100%;
+}
+
+#testimonials .profile h4 {
+  font-weight: 700;
+  color: #990000;
+  margin-bottom: 5px;
+}
+
+#testimonials .profile span {
+  color: #333333;
+}
+
+#testimonials .quote {
+  position: relative;
+  background: #fff;
+  padding: 60px;
+  margin-top: 40px;
+  font-size: 16px;
+  font-style: italic;
+  border-radius: 5px;
+}
+
+#testimonials .quote b {
+  display: inline-block;
+  font-size: 22px;
+  left: -9px;
+  position: relative;
+  top: -8px;
+}
+
+#testimonials .quote small {
+  display: inline-block;
+  right: -9px;
+  position: relative;
+  top: 4px;
+}
+*/
