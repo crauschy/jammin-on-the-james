@@ -1,40 +1,44 @@
 get '/' do
-  erb :index
+  erb :landing
 end
 
-get '/schedule' do
-  erb :schedule
-end
+# get '/' do
+#   erb :index
+# end
 
-get '/venues' do
-  erb :venues
-end
+# get '/schedule' do
+#   erb :schedule
+# end
 
-get '/music' do
-  erb :music
-end
+# get '/venues' do
+#   erb :venues
+# end
 
-get '/instructors' do
-  erb :instructors
-end
+# get '/music' do
+#   erb :music
+# end
 
-get '/workshops' do
-  erb :workshops
-end
+# get '/instructors' do
+#   erb :instructors
+# end
 
-get '/registration' do
-  erb :registration
-end
+# get '/workshops' do
+#   erb :workshops
+# end
 
-get '/travel' do
-  erb :travel
-end
+# get '/registration' do
+#   erb :registration
+# end
 
-get '/richmondfun' do
-  erb :richmondfun
-end
+# get '/travel' do
+#   erb :travel
+# end
 
-get '/thanks' do
-  erb :thanks
-end
+# get '/richmondfun' do
+#   erb :richmondfun
+# end
+
+# get '/thanks' do
+#   erb :thanks
+# end
 
