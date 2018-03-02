@@ -1,3 +1,7 @@
+# get '/' do
+#   erb :landing
+# end
+
 get '/' do
   erb :index
 end
