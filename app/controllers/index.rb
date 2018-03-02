@@ -1,44 +1,44 @@
+# get '/' do
+#   erb :landing
+# end
+
 get '/' do
-  erb :landing
+  erb :index
 end
 
-# get '/' do
-#   erb :index
-# end
+get '/schedule' do
+  erb :schedule
+end
 
-# get '/schedule' do
-#   erb :schedule
-# end
+get '/venues' do
+  erb :venues
+end
 
-# get '/venues' do
-#   erb :venues
-# end
+get '/music' do
+  erb :music
+end
 
-# get '/music' do
-#   erb :music
-# end
+get '/instructors' do
+  erb :instructors
+end
 
-# get '/instructors' do
-#   erb :instructors
-# end
+get '/workshops' do
+  erb :workshops
+end
 
-# get '/workshops' do
-#   erb :workshops
-# end
+get '/registration' do
+  erb :registration
+end
 
-# get '/registration' do
-#   erb :registration
-# end
+get '/travel' do
+  erb :travel
+end
 
-# get '/travel' do
-#   erb :travel
-# end
+get '/richmondfun' do
+  erb :richmondfun
+end
 
-# get '/richmondfun' do
-#   erb :richmondfun
-# end
-
-# get '/thanks' do
-#   erb :thanks
-# end
+get '/thanks' do
+  erb :thanks
+end
 
