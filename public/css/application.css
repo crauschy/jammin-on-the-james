@@ -234,20 +234,6 @@ h2, h3, h4, h5, h6 {
   float: left;
 }
 
-#header #logo h1 {
-  font-size: 36px;
-  margin: 0;
-  padding: 6px 0;
-  line-height: 1;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
-
-#header #logo h1 a, #header #logo h1 a:hover {
-  color: #fff;
-}
 
 #header #logo img {
   padding: 0;
@@ -1146,3 +1132,88 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: 4px;
 }
 */
+
+/* Music PAGE Section
+--------------------------------*/
+#music-page {
+ background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("../img/disco-ball.jpg") fixed center center;
+ background-size: cover;
+ padding: 60px 0 60px 0;
+}
+
+#music-page .band-bio {
+/*  margin-bottom: 30px;
+*/}
+
+#music-page .band-bio p {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+#music-page .music-item {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 200px;
+  display: table;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#music-page .band-image {
+  border: 1px solid green;
+  height: 500px;
+  width: 100%;
+  background: url("../img/dancehero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: table;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#music-page .band-container {
+  background: hsla(0,0%,0%,.1);
+  padding: 2em 2em 2em;
+  border-radius: 5px;
+}
+
+.FlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.FlexItem {
+  flex: 1 0 auto;
+  max-width: 20%;
+  min-height: 200px;
+  padding: 5px;
+}
+
+.bandmember {
+  background: url("../img/squaretext.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  width: 100%;
+}
+
+.bandmember-details {
+  margin: 8px;
+  text-align: center;
+}
+
+.bandmember-details span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#dj {
+ background: #fff
+ padding: 0 60px;
+ min-height: 90vh;
+ margin-top: 60px;
+}
