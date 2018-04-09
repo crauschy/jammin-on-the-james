@@ -1051,6 +1051,60 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
+/* Venues PAGE Section
+--------------------------------*/
+#venues-page {
+ background: #fff;
+ padding: 40px 0 60px 0;
+}
+
+#venues-page .venue-main {
+  background: center top;
+  background-size: cover;
+  min-height: 500px;
+  margin-bottom: 30px;
+}
+
+#venues-page .venue-details {
+  margin-bottom: 40px;
+}
+
+#venues-page .venue-name {
+  color: #333;
+  text-align: center;
+}
+
+#venues-page span {
+  color: #990000;
+}
+
+#venues-page .venue-description {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#venues-page p.address {
+  text-align: center;
+}
+
+#venues-page .venue-late {
+  background-size: cover;
+  min-height: 300px;
+  margin: 15px 0 30px 0;
+}
+
+#venues-page .hof {
+  background: center;
+  background-size: cover;
+}
+
+#venues-page .venue-late h3 {
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+
+
 /* Music PAGE Section
 --------------------------------*/
 #music-page {
