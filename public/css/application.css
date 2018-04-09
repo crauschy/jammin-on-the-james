@@ -615,7 +615,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #music .music-item .details span {
   display: block;
   color: #333333;
-  font-size: 14px;
+  font-size: 16px;
   transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
@@ -689,7 +689,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #workshop .workshop-item .details span {
   display: block;
   color: #666666;
-  font-size: 14px;
+  font-size: 16px;
   transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
@@ -792,9 +792,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
 }
 
-/*#register .container {
-  margin: 50px auto;
-}*/
+#register .mystery-box {
+  width: 100%;
+}
+
+#register ul {
+  max-width: 60%;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #fff;
+  text-align: left;
+  list-style-type: none;
+}
+
+@media (max-width: 991px){
+  #register .mystery-box {
+    width: 200px;
+  }
+}
 
 #register .container {
   display: table-cell;
@@ -813,6 +828,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #register span.red-text {
   color: #990000;
+}
+
+#register span.jammin-text {
   font-size: 50px;
   font-weight: 700;
 }
