@@ -1033,6 +1033,24 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
+/* Housing PAGE Section
+--------------------------------*/
+#housing-page {
+ background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("../img/disco-ball.jpg") fixed center center;
+ background-size: cover;
+ padding: 60px 0 60px 0;
+}
+
+#housing-page .housing-pic{
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#housing-page .housing-pic img {
+  width: 100%;
+}
+
+
 /* Music PAGE Section
 --------------------------------*/
 #music-page {

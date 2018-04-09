@@ -30,6 +30,10 @@ get '/registration' do
   erb :registration
 end
 
+get '/housing' do
+  erb :housing
+end
+
 # get '/travel' do
 #   erb :travel
 # end
