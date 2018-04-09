@@ -1002,6 +1002,50 @@ body.mobile-nav-active #mobile-nav-toggle {
 #######################   PAGES   ######################
 --------------------------------------------------------------*/
 
+/* Schedule PAGE Section
+--------------------------------*/
+#schedule-page {
+ background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("../img/disco-ball.jpg") fixed center center;
+ background-size: cover;
+ padding: 60px 0 60px 0;
+}
+
+#schedule-page .schedule-content {
+  border-radius: 5px;
+  background: hsla(0,0%,100%,.7);
+  min-height: 250px;
+  padding: 20px 25px;
+  margin: 15px 0 15px 0;
+}
+
+#schedule-page .schedule-pic {
+  border-radius: 5px;
+  background: hsla(0,0%,100%,.7);
+  background: center;
+  background-size: cover;
+  min-height: 700px;
+  margin: 15px 0 15px 0;
+}
+
+#schedule-page .schedule-title {
+  color: #990000;
+  font-weight: 700;
+  text-align: center;
+}
+
+#schedule-page p.schedule-description {
+  line-height: 225%;
+}
+
+#schedule-page .schedule-description span {
+  font-weight: bolder;
+}
+
+#schedule-page .schedule-divider {
+  margin-top: 30px;
+}
+
+
 /* Workshop PAGE Section
 --------------------------------*/
 #workshop-page {
