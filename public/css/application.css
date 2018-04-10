@@ -615,7 +615,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #music .music-item .details span {
   display: block;
   color: #333333;
-  font-size: 14px;
+  font-size: 16px;
   transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
@@ -689,7 +689,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #workshop .workshop-item .details span {
   display: block;
   color: #666666;
-  font-size: 14px;
+  font-size: 16px;
   transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
@@ -728,6 +728,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   #comp .comp-center {
     width: 66%;
     margin: 0 auto;
+  }
+
+  @media (max-width: 991px){
+    #comp .comp-center {
+      width: 90%;
+      margin: 0 auto;
+    }
   }
 
   #comp .comp-icon {
@@ -785,9 +792,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
 }
 
-/*#register .container {
-  margin: 50px auto;
-}*/
+#register .mystery-box {
+  width: 100%;
+}
+
+#register ul {
+  max-width: 60%;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #fff;
+  text-align: left;
+  list-style-type: none;
+}
+
+@media (max-width: 991px){
+  #register .mystery-box {
+    width: 200px;
+  }
+}
 
 #register .container {
   display: table-cell;
@@ -806,6 +828,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #register span.red-text {
   color: #990000;
+}
+
+#register span.jammin-text {
   font-size: 50px;
   font-weight: 700;
 }
@@ -971,6 +996,258 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
+
+
+/*--------------------------------------------------------------
+#######################   PAGES   ######################
+--------------------------------------------------------------*/
+
+/* Schedule PAGE Section
+--------------------------------*/
+#schedule-page {
+ background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("../img/disco-ball.jpg") fixed center center;
+ background-size: cover;
+ padding: 60px 0 60px 0;
+}
+
+#schedule-page .schedule-content {
+  border-radius: 5px;
+  background: hsla(0,0%,100%,.7);
+  min-height: 250px;
+  padding: 20px 25px;
+  margin: 15px 0 15px 0;
+}
+
+#schedule-page .schedule-pic {
+  border-radius: 5px;
+  background: hsla(0,0%,100%,.7);
+  background: center;
+  background-size: cover;
+  min-height: 700px;
+  margin: 15px 0 15px 0;
+}
+
+#schedule-page .schedule-title {
+  color: #990000;
+  font-weight: 700;
+  text-align: center;
+}
+
+#schedule-page p.schedule-description {
+  line-height: 225%;
+}
+
+#schedule-page .schedule-description span {
+  font-weight: bolder;
+}
+
+#schedule-page .schedule-divider {
+  margin-top: 30px;
+}
+
+#schedule-page .schedule-description .monday p {
+  text-align: center;
+
+}
+#schedule-page .thumb-icon {
+  width: 20%;
+  margin: 0 auto;
+}
+
+#schedule-page .thumb-icon i {
+  color: #990000;
+  font-size: 75px;
+}
+
+
+/* Workshop PAGE Section
+--------------------------------*/
+#workshop-page {
+ background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("../img/disco-ball.jpg") fixed center center;
+ background-size: cover;
+ padding: 60px 0 60px 0;
+}
+
+#workshop-page .workshop-content {
+  border-radius: 5px;
+  background: hsla(0,0%,100%,.7);
+  min-height: 250px;
+  padding: 20px 25px;
+  margin: 15px 0 15px 0;
+}
+
+#workshop-page .track-title {
+  color: #990000;
+  font-weight: 700;
+  text-align: center;
+}
+
+#workshop-page .track-description span {
+  color: #cc0000;
+}
+
+#workshop-page .workshop-divider {
+  margin-top: 30px;
+}
+
+
+/* Housing PAGE Section
+--------------------------------*/
+#housing-page {
+ background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("../img/disco-ball.jpg") fixed center center;
+ background-size: cover;
+ padding: 60px 0 60px 0;
+}
+
+#housing-page .housing-pic{
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#housing-page .housing-pic img {
+  width: 100%;
+}
+
+
+/* Venues PAGE Section
+--------------------------------*/
+#venues-page {
+ background: #fff;
+ padding: 40px 0 60px 0;
+}
+
+#venues-page .venue-main {
+  background: center top;
+  background-size: cover;
+  min-height: 500px;
+  margin-bottom: 30px;
+}
+
+#venues-page .venue-details {
+  margin-bottom: 40px;
+}
+
+#venues-page .venue-name {
+  color: #333;
+  text-align: center;
+}
+
+#venues-page span {
+  color: #990000;
+}
+
+#venues-page .venue-description {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#venues-page p.address {
+  text-align: center;
+}
+
+#venues-page .venue-late {
+  background-size: cover;
+  min-height: 300px;
+  margin: 15px 0 30px 0;
+}
+
+#venues-page .hof {
+  background: center;
+  background-size: cover;
+}
+
+#venues-page .venue-late h3 {
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+
+
+/* Music PAGE Section
+--------------------------------*/
+#music-page {
+ background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("../img/disco-ball.jpg") fixed center center;
+ background-size: cover;
+ padding: 60px 0 60px 0;
+}
+
+#music-page .band-bio {
+/*  margin-bottom: 30px;
+*/}
+
+#music-page .band-bio p {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+#music-page .music-item {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 200px;
+  display: table;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#music-page .band-image {
+  border: 1px solid green;
+  height: 500px;
+  width: 100%;
+  background: url("../img/dancehero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: table;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#music-page .band-container {
+  background: hsla(0,0%,0%,.1);
+  padding: 2em 2em 2em;
+  border-radius: 5px;
+}
+
+.FlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.FlexItem {
+  flex: 1 0 auto;
+  max-width: 20%;
+  min-height: 200px;
+  padding: 5px;
+}
+
+.bandmember {
+  background: url("../img/squaretext.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  width: 100%;
+}
+
+.bandmember-details {
+  margin: 8px;
+  text-align: center;
+}
+
+.bandmember-details span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#dj {
+ background: #fff
+ padding: 0 60px;
+ min-height: 90vh;
+ margin-top: 60px;
+}
+
 
 
 
@@ -1157,88 +1434,3 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: 4px;
 }
 */
-
-/* Music PAGE Section
---------------------------------*/
-#music-page {
- background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("../img/disco-ball.jpg") fixed center center;
- background-size: cover;
- padding: 60px 0 60px 0;
-}
-
-#music-page .band-bio {
-/*  margin-bottom: 30px;
-*/}
-
-#music-page .band-bio p {
-  text-align: justify;
-  margin-bottom: 30px;
-}
-
-#music-page .music-item {
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  width: 200px;
-  display: table;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-
-#music-page .band-image {
-  border: 1px solid green;
-  height: 500px;
-  width: 100%;
-  background: url("../img/dancehero.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  display: table;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-
-#music-page .band-container {
-  background: hsla(0,0%,0%,.1);
-  padding: 2em 2em 2em;
-  border-radius: 5px;
-}
-
-.FlexContainer {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.FlexItem {
-  flex: 1 0 auto;
-  max-width: 20%;
-  min-height: 200px;
-  padding: 5px;
-}
-
-.bandmember {
-  background: url("../img/squaretext.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 200px;
-  width: 100%;
-}
-
-.bandmember-details {
-  margin: 8px;
-  text-align: center;
-}
-
-.bandmember-details span {
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-#dj {
- background: #fff
- padding: 0 60px;
- min-height: 90vh;
- margin-top: 60px;
-}

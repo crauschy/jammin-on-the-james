@@ -14,13 +14,13 @@ get '/venues' do
   erb :venues
 end
 
-get '/music' do
-  erb :music
-end
+# get '/music' do
+#   erb :music
+# end
 
-get '/instructors' do
-  erb :instructors
-end
+# get '/instructors' do
+#   erb :instructors
+# end
 
 get '/workshops' do
   erb :workshops
@@ -30,15 +30,19 @@ get '/registration' do
   erb :registration
 end
 
-get '/travel' do
-  erb :travel
+get '/housing' do
+  erb :housing
 end
 
-get '/richmondfun' do
-  erb :richmondfun
-end
+# get '/travel' do
+#   erb :travel
+# end
 
-get '/thanks' do
-  erb :thanks
+# get '/richmondfun' do
+#   erb :richmondfun
+# end
+
+get '/team' do
+  erb :team
 end
 
