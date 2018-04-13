@@ -1,4 +1,4 @@
-/*
+
   Theme Name: Imperial
   Theme URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-template/
   Author: BootstrapMade
@@ -714,71 +714,71 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Competition Section
 --------------------------------*/
-  #comp {
-    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/jick-jall-1.jpg") fixed top center;
-    background-size: cover;
-    padding: 80px 0 60px 0;
-    min-height: 100vh;
-  }
+#comp {
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/jick-jall-1.jpg") fixed top center;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+  min-height: 100vh;
+}
 
-  #comp .comp-item {
-    margin-bottom: 20px;
-  }
+#comp .comp-item {
+  margin-bottom: 20px;
+}
 
+#comp .comp-center {
+  width: 66%;
+  margin: 0 auto;
+}
+
+@media (max-width: 991px){
   #comp .comp-center {
-    width: 66%;
+    width: 90%;
     margin: 0 auto;
   }
+}
 
-  @media (max-width: 991px){
-    #comp .comp-center {
-      width: 90%;
-      margin: 0 auto;
-    }
-  }
+#comp .comp-icon {
+  float: left;
+  background: #990000;
+  padding: 16px;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #990000;
+}
 
-  #comp .comp-icon {
-    float: left;
-    background: #990000;
-    padding: 16px;
-    border-radius: 50%;
-    transition: 0.5s;
-    border: 1px solid #990000;
-  }
+#comp .comp-icon i {
+  color: #fff;
+  font-size: 24px;
+}
 
-  #comp .comp-icon i {
-    color: #fff;
-    font-size: 24px;
-  }
+#comp .comp-item:hover .comp-icon {
+  background: #fff;
+}
 
-  #comp .comp-item:hover .comp-icon {
-    background: #fff;
-  }
+#comp .comp-item:hover .comp-icon i {
+  color: #990000;
+}
 
-  #comp .comp-item:hover .comp-icon i {
-    color: #990000;
-  }
+#comp .comp-title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
 
-  #comp .comp-title {
-    margin-left: 80px;
-    font-weight: 700;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-  }
+#comp .comp-title a {
+  color: #111;
+}
 
-  #comp .comp-title a {
-    color: #111;
-  }
+#comp .comp-description {
+  margin-left: 80px;
+  line-height: 24px;
+}
 
-  #comp .comp-description {
-    margin-left: 80px;
-    line-height: 24px;
-  }
-
-  #comp .centered {
-    margin-left: auto;
-    text-align: center;
-  }
+#comp .centered {
+  margin-left: auto;
+  text-align: center;
+}
 
 
 /* Registration Section
@@ -1002,6 +1002,89 @@ body.mobile-nav-active #mobile-nav-toggle {
 #######################   PAGES   ######################
 --------------------------------------------------------------*/
 
+/* Registration PAGE Section
+--------------------------------*/
+#registration-page {
+ background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/disco-ball.jpg") fixed center center;
+ background-size: cover;
+ padding: 60px 0 60px 0;
+}
+
+#registration-page .registration-centered {
+  margin: 0 auto;
+}
+
+#registration-page tbody th {
+  background: rgb(255,255,255,.5);
+}
+
+#registration-page .full-pass-header {
+  background: #990000;
+  color: #fff;
+  text-align: center;
+}
+
+#registration-page .pass-date {
+  text-align: center;
+  background: rgb(255,255,255,.2);
+}
+
+#registration-page tr.bottom-border {
+  border-bottom: 3px solid #990000;
+}
+
+#registration-page .register-btn-container {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#registration-page .register-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  background: #990000;
+  border: 2px solid #990000;
+  color: #fff;
+
+  display: none;
+}
+
+#registration-page .register-btn:hover {
+  background: initial;
+  color: #990000;
+  border: 2px solid #990000;
+}
+
+#registration-page .registration-content {
+  border-radius: 5px;
+  background: hsla(0,0%,100%,.7);
+  min-height: 250px;
+  padding: 20px 25px;
+  margin: 60px 0;
+}
+
+#registration-page .reg-title {
+  color: #990000;
+  text-align: center;
+  margin: 5% 5% 5% 0;
+}
+
+#registration-page .reg-description {
+  margin: 5%;
+}
+
+#registration-page .reg-description span {
+  color: #cc0000;
+}
+
+
 /* Schedule PAGE Section
 --------------------------------*/
 #schedule-page {
@@ -1059,6 +1142,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 75px;
 }
 
+@media (max-width: 991px){
+  #schedule-page .schedule-pic {
+    display: none;
+  }
+}
+
 
 /* Workshop PAGE Section
 --------------------------------*/
@@ -1089,6 +1178,38 @@ body.mobile-nav-active #mobile-nav-toggle {
 #workshop-page .workshop-divider {
   margin-top: 30px;
 }
+
+
+/* Team PAGE Section
+--------------------------------*/
+#team-page {
+/* background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("../img/disco-ball.jpg") fixed center center;*/
+ background: #fff;
+ padding: 60px 0 60px 0;
+}
+
+#team-page .team-content {
+  border-radius: 5px;
+  background: hsla(0,0%,100%,.7);
+  min-height: 250px;
+  padding: 20px 25px;
+  margin: 15px 0 15px 0;
+}
+
+#team-page .team-title {
+  color: #990000;
+  font-weight: 700;
+  text-align: center;
+}
+
+#team-page .team-description span {
+  color: #cc0000;
+}
+
+#team-page .team-divider {
+  margin-top: 30px;
+}
+
 
 
 /* Housing PAGE Section
@@ -1433,4 +1554,3 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   top: 4px;
 }
-*/
