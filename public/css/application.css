@@ -1142,6 +1142,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 75px;
 }
 
+@media (max-width: 991px){
+  #schedule-page .schedule-pic {
+    display: none;
+  }
+}
+
 
 /* Workshop PAGE Section
 --------------------------------*/
