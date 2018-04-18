@@ -983,6 +983,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer {
   background: #111;
   padding: 30px 0;
+  color: #333;
+}
+
+#footer .contact {
+  text-align: center;
+  font-size: 16px;
   color: #fff;
 }
 
@@ -993,7 +999,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .credits {
   padding-top: 10px;
   text-align: center;
-  font-size: 13px;
+  font-size: 10px;
   color: #ccc;
 }
 
