@@ -1,9 +1,9 @@
 
-  Theme Name: Imperial
-  Theme URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-template/
-  Author: BootstrapMade
-  Author URL: https://bootstrapmade.com
-  */
+Theme Name: Imperial
+Theme URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-template/
+Author: BootstrapMade
+Author URL: https://bootstrapmade.com
+*/
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -590,7 +590,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #music .music-headliner {
-  height: 580px;
+  height: 750px;
 }
 
 #music .music-item .details {
@@ -601,6 +601,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   opacity: 0;
   transition: 0.3s;
   text-align: center;
+}
+
+#music .music-item .details-headliner {
+  width: 50%;
+  background-position: center center;
+  /*background-size: contain;*/
+  background-repeat: no-repeat;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  opacity: 0;
+  transition: 0.3s;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+#music .details-headliner img {
+  width: 70%;
 }
 
 #music .music-item .details h4 {
@@ -626,7 +644,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #music .music-item:hover .details {
-  opacity: 0.7;
+  opacity: 0.8;
+}
+
+#music .music-item:hover .details img {
+  opacity: 1.0;
 }
 
 #music .music-item:hover .details h4 {
@@ -639,6 +661,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: translate3d(0, 0, 0);
 }
 
+@media (max-width: 991px){
+  #music .music-headliner {
+    height: auto;
+  }
+}
+
+
+
 
 /* Workshop Section
 --------------------------------*/
@@ -648,11 +678,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #workshop .workshop-item {
-  background-position: center center;
+  background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  height: 260px;
+  height: 300px;
   width: 100%;
   display: table;
   overflow: hidden;
@@ -711,6 +741,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 #workshop .workshop-item:hover .details span {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+}
+
+#workshop .beginner-title {
+  font-size: 28px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 50px;
 }
 
 
@@ -794,6 +833,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
 }
 
+#register .register-container {
+  margin: auto 20px;
+}
+
 #register .mystery-box {
   width: 100%;
 }
@@ -819,6 +862,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0;
   vertical-align: middle;
 }
+
+
 
 #register .register-title {
   font-family: "Coradium", "Raleway", sans-serif;
@@ -851,13 +896,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #register .register-btn-container {
-  text-align: center;
-  padding-top: 20px;
+  margin-top: 30px;
 }
 
 #register .register-btn {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
+  text-align: center;
   font-weight: 500;
   font-size: 18px;
   letter-spacing: 1px;
@@ -994,15 +1039,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#footer .copyright {
-  text-align: center;
-}
-
 #footer .credits {
+  float: left;
   padding-top: 10px;
   text-align: center;
   font-size: 10px;
-  color: #ccc;
+  color: #333;
+  display: inline-block;
+}
+
+#footer .credits a {
+  color: #333;
 }
 
 
@@ -1189,9 +1236,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Team PAGE Section
 --------------------------------*/
 #team-page {
-/* background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("../img/disco-ball.jpg") fixed center center;*/
- background: #fff;
- padding: 60px 0 60px 0;
+  /* background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("../img/disco-ball.jpg") fixed center center;*/
+  background: #fff;
+  padding: 60px 0 60px 0;
 }
 
 #team-page .team-content {
