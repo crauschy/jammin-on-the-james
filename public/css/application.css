@@ -582,11 +582,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  height: 260px;
+  height: 160px;
   width: 100%;
   display: table;
   overflow: hidden;
   margin-bottom: 30px;
+}
+
+#music .last-in-row {
+  padding-right: 0px;
 }
 
 #music .music-headliner {
@@ -594,7 +598,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #music .music-item .details {
-  height: 260px;
+  height: 160px;
   background: #fff;
   display: table-cell;
   vertical-align: middle;
@@ -661,10 +665,41 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: translate3d(0, 0, 0);
 }
 
-@media (max-width: 991px){
+#music .music-item .section-description {
+  padding-top: 30px;
+}
+
+@media (max-width: 991px) {
   #music .music-headliner {
     height: auto;
   }
+
+  #music .mobile-container .music-dj {
+    width: 32%;
+    display: inline-block;
+  }
+  #music .mobile-container {
+    margin: 0 auto;
+  }
+}
+
+
+@media (max-width: 480px){
+  #music .mobile-container .music-item {
+    margin-bottom: 0;
+  }
+  #music .mobile-container .music-dj {
+    width: 100%;
+    float: center;
+  }
+  #music .mobile-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #music .last-in-row {
+    padding: 0;
+  }
+
 }
 
 
