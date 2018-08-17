@@ -18,9 +18,9 @@ end
 #   erb :music
 # end
 
-# get '/instructors' do
-#   erb :instructors
-# end
+get '/instructors' do
+  erb :instructors
+end
 
 get '/workshops' do
   erb :workshops
