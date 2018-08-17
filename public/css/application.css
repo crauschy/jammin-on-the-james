@@ -1079,12 +1079,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 10px;
   text-align: center;
   font-size: 10px;
-  color: #333;
+  color: #000;
   display: inline-block;
 }
 
 #footer .credits a {
-  color: #333;
+  color: #000;
 }
 
 
@@ -1411,6 +1411,67 @@ section#add-ons {
 #venues-page .venue-late h3 {
   margin-top: 30px;
   padding-top: 10px;
+}
+
+/* Instructor PAGE Section
+--------------------------------*/
+#instructor-page {
+ background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("../img/disco-ball.jpg") fixed center center;
+ background-size: cover;
+ padding: 60px 0 60px 0;
+}
+
+#instructor-page .instructor-container {
+  background: hsla(0,0%,0%,.1);
+  padding: 2em 2em 2em;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#instructor-page .instructor-item {
+  font-size: 16px;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 48%;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#instructor-page .instructor-blurb {
+
+  }
+
+#instructor-page .instructor-item h4 {
+  color: #990000;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (max-width: 991px){
+  #instructor-page .instructor-pic {
+    width: 40%;
+    max-height: 350px;
+    margin-top: 45px;
+  }
+  #instructor-page .instructor-blurb {
+    width: 58%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px){
+  #instructor-page .instructor-pic {
+    width: 100%;
+    min-height: 300px;
+    margin-top: 0;
+  }
+    #instructor-page .instructor-blurb {
+    width: 100%
+  }
 }
 
 
