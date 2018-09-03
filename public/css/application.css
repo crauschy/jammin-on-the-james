@@ -1406,6 +1406,14 @@ section#add-ons {
   }
 }
 
+/* Volunteer PAGE Section
+--------------------------------*/
+#volunteer-page {
+ background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("../img/disco-ball.jpg") fixed center center;
+ background-size: cover;
+ padding: 60px 0 60px 0;
+}
+
 /* Venues PAGE Section
 --------------------------------*/
 #venues-page {
