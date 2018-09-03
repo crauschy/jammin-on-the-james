@@ -122,7 +122,7 @@ h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.05);
   display: table-cell;
   margin: 0;
   padding: 0;
