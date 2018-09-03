@@ -34,6 +34,10 @@ get '/housing' do
   erb :housing
 end
 
+get '/volunteer' do
+  erb :volunteer
+end
+
 # get '/travel' do
 #   erb :travel
 # end
