@@ -1351,15 +1351,60 @@ section#add-ons {
  padding: 60px 0 60px 0;
 }
 
-#housing-page .housing-pic{
-  max-width: 90%;
-  margin: 0 auto;
+#housing-page .housing-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 95%;
+  margin: 0 auto 30px;
 }
 
-#housing-page .housing-pic img {
-  width: 100%;
+#housing-page .housing-container a {
+  color: #990000;
+  display: block;
+  width: 45%;
 }
 
+#housing-page .housing-container a:hover {
+  color: #cc0000;
+}
+
+#housing-page .housing-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: hsla(0,0%,100%,.6);
+  min-height: 350px;
+  margin-bottom: 15px;
+}
+
+#housing-page .housing-option:hover {
+  background: hsla(0,0%,100%,.8);
+}
+
+#housing-page .option-title {
+  margin: 0;
+}
+
+#housing-page .form-row {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  #housing-page .housing-option {
+    min-height: 80px;
+  }
+
+  #housing-page .housing-container a {
+    width: 100%;
+  }
+  #housing-page .form-row {
+    margin-bottom: 15px;
+  }
+}
 
 /* Venues PAGE Section
 --------------------------------*/
@@ -1443,7 +1488,7 @@ section#add-ons {
 
 #instructor-page .instructor-blurb {
 
-  }
+}
 
 #instructor-page .instructor-item h4 {
   color: #990000;
@@ -1469,7 +1514,7 @@ section#add-ons {
     min-height: 300px;
     margin-top: 0;
   }
-    #instructor-page .instructor-blurb {
+  #instructor-page .instructor-blurb {
     width: 100%
   }
 }
