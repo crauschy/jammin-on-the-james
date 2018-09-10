@@ -576,9 +576,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #music .main-band {
-  border: 2px solid green;
   display: flex;
+  flex-wrap: wrap;
   min-height: 480px;
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
 
 #music .band-image-container {
@@ -586,30 +588,100 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #music .band-image {
-  border: 2px solid blue;
   width: 100%;
 }
 
 #music .band-info-container {
-  border: 2px solid red;
   width: 45%;
   display: flex;
   flex-direction: column;
+  align-content: center;
 }
 
 #music .band-info {
-  padding: 15px;
+  padding: 35px 0;
+  text-align: center;
+}
+
+#music .band-info h2 {
+  color: #eee;
+  margin: 15px auto 10px;
+  font-size: 28px;
+}
+
+#music .highlight {
+  font-size: 30px;
+  color: #ffa600;
+  letter-spacing: 0.15em;
 }
 
 #music .band-friday {
   height: 45%;
   background-color: #990000;
+  border: 2px solid #770000;
+  border-right: 2px solid #aa0000;
 }
 
 #music .band-saturday {
   height: 55%;
   background-color: #000;
+  border-bottom: 2px solid #222;
+  border-top: 2px solid #222;
+  border-right: 2px solid #777;
 }
+
+#music .divider {
+  width: 60%;
+  height: 3px;
+  background: #eee;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#music .band-description {
+  width: 45%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+}
+
+#music span.small-text {
+  font-size: 12px;
+}
+
+#music span.expanded {
+  font-size: 20px;
+  color: #ffa600;
+  font-weight: bold;
+}
+
+@media (max-width: 1199px) {
+  #music .band-info {
+    padding: 15px 0;
+  }
+}
+
+@media (max-width: 991px) {
+  #music .band-image-container {
+    width: 100%;
+  }
+
+  #music .band-info-container {
+    width: 100%;
+  }
+
+  #music .band-info {
+    padding: 35px 0;
+  }
+
+    #music .band-description {
+      width: 52%;
+    padding-bottom: 20px;
+  }
+}
+
 
 #music .music-item {
   background-position: center center;
