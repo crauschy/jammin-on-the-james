@@ -1284,10 +1284,6 @@ body.mobile-nav-active #mobile-nav-toggle {
  padding: 60px 0 0px 0;
 }
 
-#schedule-page .mobile-only-schedule {
-  display: none;
-}
-
 #schedule-page .mobile-hide-schedule {
   width: 95%;
 }
@@ -1295,6 +1291,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #schedule-page .schedule-container {
   width: 100%;
   display: flex;
+}
+
+#schedule-page .mobile-only-schedule {
+  display: none;
 }
 
 #schedule-page iframe.embedded-schedule {
