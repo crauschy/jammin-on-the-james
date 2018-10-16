@@ -1297,7 +1297,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: flex;
 }
 
-#schedule-page .embedded-schedule {
+#schedule-page iframe.embedded-schedule {
   border-radius: 5px;
   width: 100%;
   max-width: 1062px;
@@ -1367,7 +1367,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: block;
   }
 
-  #schedule-page .embedded-schedule {
+  #schedule-page iframe.embedded-schedule {
     height: 88vh;
   }
 }
