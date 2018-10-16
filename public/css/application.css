@@ -676,8 +676,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 35px 0;
   }
 
-    #music .band-description {
-      width: 52%;
+  #music .band-description {
+    width: 52%;
     padding-bottom: 20px;
   }
 }
@@ -1281,7 +1281,28 @@ body.mobile-nav-active #mobile-nav-toggle {
 #schedule-page {
  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("../img/disco-ball.jpg") fixed center center;
  background-size: cover;
- padding: 60px 0 60px 0;
+ padding: 60px 0 0px 0;
+}
+
+#schedule-page .mobile-only-schedule {
+  display: none;
+}
+
+#schedule-page .mobile-hide-schedule {
+  width: 95%;
+}
+
+#schedule-page .schedule-container {
+  width: 100%;
+  display: flex;
+}
+
+#schedule-page .embedded-schedule {
+  border-radius: 5px;
+  width: 100%;
+  max-width: 1062px;
+  height: 75vh;
+  margin: 0 auto;
 }
 
 #schedule-page .schedule-content {
@@ -1333,9 +1354,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 75px;
 }
 
-@media (max-width: 991px){
-  #schedule-page .schedule-pic {
+@media (max-width: 768px){
+  #schedule-page {
+    padding: 0;
+  }
+
+  #schedule-page .mobile-hide-schedule {
     display: none;
+  }
+
+  #schedule-page .mobile-only-schedule {
+    display: block;
+  }
+
+  #schedule-page .embedded-schedule {
+    height: 88vh;
   }
 }
 
