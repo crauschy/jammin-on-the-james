@@ -38,6 +38,10 @@ get '/volunteer' do
   erb :volunteer
 end
 
+get '/code-of-conduct' do
+  erb :codeofconduct
+end
+
 # get '/travel' do
 #   erb :travel
 # end
